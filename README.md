@@ -171,4 +171,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## Acknowledgments
 - Game design inspiration from Roma X slot game
 - Fiber framework community
-```
