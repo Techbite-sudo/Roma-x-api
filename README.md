@@ -90,58 +90,20 @@ Request:
 Response:
 ```json
 {
-	"grid": {
-		"Symbols": [
-			[
-				"Wild",
-				"Lion",
-				"Cup"
-			],
-			[
-				"Helmet",
-				"Bonus",
-				"Sword"
-			],
-			[
-				"Wild",
-				"Shield",
-				"Lion"
-			],
-			[
-				"Cup",
-				"Shield",
-				"Cup"
-			],
-			[
-				"Eye",
-				"Lion",
-				"Helmet"
-			]
-		]
-	},
-	"winning_lines": [
-		{
-			"payline_number": 11,
-			"symbols": "Shield",
-			"count": 5,
-			"payout": 60
-		},
-		{
-			"payline_number": 6,
-			"symbols": "Shield",
-			"count": 4,
-			"payout": 12
-		},
-		{
-			"payline_number": 7,
-			"symbols": "Lion",
-			"count": 5,
-			"payout": 160
-		}
-	],
-	"total_win": 232,
-	"free_games": 0,
-	"is_bonus_game": false
+    "grid": {
+        "symbols": [["Symbol", "Symbol", "Symbol"], ...]
+    },
+    "winning_lines": [
+        {
+            "payline_number": 1,
+            "symbols": "Lion",
+            "count": 3,
+            "payout": 80.0
+        },...
+    ],
+    "total_win": 80.0,
+    "free_games": 0,
+    "is_bonus_game": false
 }
 ```
 
